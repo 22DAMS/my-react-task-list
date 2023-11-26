@@ -1,0 +1,21 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    /* Tipo de fuente */
+    background-color: #f4f4f4;
+    /* Color de fondo */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding: 0;
+    /* Elimina el relleno predeterminado */
+    display: flex;
+    /* Usa el modelo de caja flexible */
+    align-items: center;
+    /* Centra verticalmente */
+    justify-content: center;
+    /* Centra horizontalmente */
+    height: 100vh;
+    /* Establece la altura al 100% de la ventana */
+}
+
+/* Estilo para los componentes según sea necesario */
