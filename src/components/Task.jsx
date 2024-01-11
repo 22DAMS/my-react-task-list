@@ -5,12 +5,14 @@ export const Task = (props) => {
   const { title, description, complete, toggleTask, deleteTask, editTask } = props;
   const [newTitle, setNewTitle] = useState(title);
 
+// Función para el manejo para eliminar una tarea individual desde el boton de la tarjeta.
   function handleDelete () {
     if (window.confirm('Are you sure to delete the task?')) {
       deleteTask(title);
     }
   }
 
+// Función para el manejo para editar una tarea individual desde el boton de la tarjeta.
   function handleEdit () {
     const newTaskTitle = prompt('Enter new task title', newTitle);
     if (newTaskTitle !== null) {
